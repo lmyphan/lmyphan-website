@@ -1,0 +1,89 @@
+---
+title: "Research"
+format:
+  html:
+    theme: cosmo  # or your theme of choice
+    css: styles.css  # custom styling (see below)
+    bootstrap: true 
+---
+
+## Working Papers
+
+---
+
+### Leveraging Generative Language Models for Survey Experiments  
+*A Synthetic Approach to Understanding Pan-Ethnic Asian American Identity and Candidate Preference*
+
+This paper investigates how generative language models can help explore the political effects of pan-ethnic identity among Asian Americans.
+
+[**Abstract**](#abstract1){.toggle-button}
+
+<div id="abstract1" class="toggle-abstract">
+<p>
+Recent studies into Asian American voting preference and group identity have found that Asian Americans tend to prefer their national-origin identity over their pan-ethnic identity. My paper seeks to examine the conditions under which ethnic and pan-ethnic Asian American identities exert effects on political preferences. I do so by testing whether a pan-ethnic Asian American identity can be activated in the context of candidate support. The Common Ingroup Identity Model (CIIM) posits that intergroup bias can be reduced by transforming people’s perception of ingroup boundaries. In the context of my study, Asian Americans of specific ethnicities may change from thinking of themselves as Korean or Vietnamese American to the broader Asian American identity if exposed to certain factors that highlight their group’s common linkage. To test this, I employ a survey experiment where I prime the subject’s Asian American pan-ethnic identity. My survey experiment leverages large-scale generative language models (LLMs) like ChatGPT to generate silicon samples, which are synthetic responses based on personas with specific demographic and political characteristics. This method ensures better representation of underrepresented national-origin groups (e.g., Cambodian, Laotian, Thai).
+</p>
+</div>
+
+---
+
+### Synthetic Sampling on Underrepresented Racial Groups?  
+*Examining ChatGPT’s Ability to Generate Accurate Responses for Southeast Asian Americans*
+
+This project evaluates the accuracy of LLMs in generating survey responses for underrepresented groups.
+
+[**Abstract**](#abstract2){.toggle-button}
+
+<div id="abstract2" class="toggle-abstract">
+<p>
+My study investigates whether large language models (LLMs) can generate human-like responses to survey questions when simulating individuals from small and underrepresented populations in the United States. In this method, the LLM first adopts different personas defined by demographic and political characteristics and then takes the survey as these different personas. The responses that the LLMs give are referred to as silicon samples or synthetic data. One potential setback in this process is that LLMs rely on existing data to train on; however, if there is not enough data on a particular group, then the model struggles to provide accurate and nuanced responses. I test the accuracy of LLMs (specifically ChatGPT) on underrepresented groups by using the Southeast Asian American (SEAA) population. The SEAA population serves as an ideal case for this study due to its relatively small size and the well-documented lack of data available for these groups. In particular, I examine whether ChatGPT can generate accurate responses to political questions that have been previously given to SEAA survey respondents, allowing for a comparison between the model’s outputs and actual survey data.
+</p>
+</div>
+
+---
+
+### The Effects of Residential Concentration on Group Consciousness  
+*Among Minority Groups in the United States*
+
+This paper explores how living near co-ethnics shapes group consciousness among minority populations.
+
+[**Abstract**](#abstract3){.toggle-button}
+
+<div id="abstract3" class="toggle-abstract">
+<p>
+In this paper, I examine whether residential concentration or the proportion of co-ethnic members living in an area is a predictor of group-based resources like group consciousness. I anticipate that higher residential concentration facilitates an increase in interactions with co-ethnics. I contend that these individuals are more likely to discuss politics centered on their ethnicity with their co-ethnics than those who live in areas with smaller populations of co-ethnics. These interactions should produce more awareness of one’s racial identity, the role of their ethnic group in politics, and common political goals, all of which have been considered dimensions of group-based resources. To test this argument, I use a multi-level modeling analysis (MLM) with data from the 2020 Collaborative Multi-Racial Post-Election Survey (CMPS). My analysis reveals that Linked Fate has a significant positive relationship with residential concentration. I do not find any evidence to support the argument that Perceived Closeness and Discrimination have a relationship with residential concentration.
+</p>
+</div>
+
+---
+
+### Understanding the Role of Demographic Concentration in Minority Political Participation  
+*Asian American Political Engagement Beyond Voting*
+
+This project examines how residential concentration influences non-voting political participation among Asian Americans.
+
+[**Abstract**](#abstract4){.toggle-button}
+
+<div id="abstract4" class="toggle-abstract">
+<p>
+What factors predict Asian American political participation? Asian Americans represent one of the fastest-growing yet least politically active minority groups in the United States. This is especially true for political activities beyond voting; Asian Americans are far less likely than other groups, such as White Americans, to attend local meetings like town halls or call their local officials. I posit in this paper that residential concentration, or the proportion of co-race members living in your area, serves as a source for group-based resources like group consciousness. Through increased exposure to socialization and communication with people from your minority group, you are more likely to view politics through the prism of your group identity and desire to act politically to better the standing of your group through non-voting forms of participation. Therefore, higher residential concentration should lead to higher political participation. To test the hypothesis that residential concentration influences Asian American political participation, I utilize a large, nationally representative survey dataset of Asian Americans in the United States. To analyze the effects of residential concentration on political participation, I employ a one-to-one nearest neighbor matching procedure. This causal inference technique allows me to isolate the effects of residential concentration by comparing individuals who are all relevant in characteristics except for their level of residential concentration.
+</p>
+</div>
+
+---
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const buttons = document.querySelectorAll('.toggle-button');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target.style.display === 'block') {
+        target.style.display = 'none';
+      } else {
+        target.style.display = 'block';
+      }
+    });
+  });
+});
+</script>

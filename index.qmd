@@ -1,0 +1,33 @@
+---
+title: "Linh My Phan"
+subtitle: "PhD Candidate<br>Department of Political Science<br>University of California, Davis"
+
+image: images/profile-01.jpeg
+
+about: 
+  template: trestles 
+  image-shape: round
+  links: 
+    - icon: envelope 
+      href: mailto:lmyphan96@gmail.com 
+    - icon: linkedin 
+      href: https://www.linkedin.com/in/lmyphan05
+    - icon: github 
+      href: https://github.com/lmyphan
+---
+
+### BIO 
+
+Hello! I’m a Ph.D. candidate in Political Science at the University of California, Davis, where I study how demographic context shapes political behavior among underrepresented racial groups in the United States, with a particular focus on Asian American communities. My current research explores how residential concentration, living near others of the same racial or ethnic background, can foster group consciousness and influence political participation. I use multi-level modeling and causal inference methods to analyze large-scale survey data, including nationally representative samples of Asian Americans. In addition to traditional survey research, I’m also interested in computational methods. I’ve recently been working with generative language models like ChatGPT to create synthetic survey samples. My goal is to better represent understudied populations, such as Southeast Asian Americans, in political science research and to evaluate the accuracy and limitations of these tools in simulating real-world attitudes and behaviors.
+
+### Education
+
+::: topbr
+PhD in Political Science, 2025 \| University of California, Davis
+
+BA in Political Science, 2018 \| University of California, Riverside
+:::
+
+### **Research Interests**
+
+Political Behavior and Participation \| Political Psychology \| Demographic Research \| Data Equity \| Causal Inference \| Experimental Design & Survey Methods \| Large Language Models (LLMs) \| Computational Social Science

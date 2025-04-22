@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "Linh Phan"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: Research
+      - href: Phan_Resume.pdf
+        text: Resume
+        
+format:
+  html:
+    allow-scripts: true
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
